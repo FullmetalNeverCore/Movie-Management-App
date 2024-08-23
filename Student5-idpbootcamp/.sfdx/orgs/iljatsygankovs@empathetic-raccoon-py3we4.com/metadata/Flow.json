@@ -1,0 +1,83 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-09T20:52:00.000Z",
+      "fileName": "flows/Movie_GettingAvab_Chars.flow",
+      "fullName": "Movie_GettingAvab_Chars",
+      "id": "301d2000005B2GXAA0",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-09T20:52:02.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-09T11:36:49.000Z",
+      "fileName": "flows/Initial_Movie_Cast_Subflow.flow",
+      "fullName": "Initial_Movie_Cast_Subflow",
+      "id": "301d20000059hfaAAA",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-09T11:36:52.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-09T12:23:26.000Z",
+      "fileName": "flows/MovieScreenFlow.flow",
+      "fullName": "MovieScreenFlow",
+      "id": "301d20000059sMTAAY",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-09T12:23:32.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-05T06:09:17.000Z",
+      "fileName": "flows/customer_satisfaction.flow",
+      "fullName": "customer_satisfaction",
+      "id": "301d2000004rb4CAAQ",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-05T06:09:17.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-05T06:09:17.000Z",
+      "fileName": "flows/net_promoter_score.flow",
+      "fullName": "net_promoter_score",
+      "id": "301d2000004rb4BAAQ",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-05T06:09:17.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-09T10:16:36.000Z",
+      "fileName": "flows/Movie_Cast_Finalization.flow",
+      "fullName": "Movie_Cast_Finalization",
+      "id": "301d2000005988RAAQ",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-09T10:16:38.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    }
+  ]
+}

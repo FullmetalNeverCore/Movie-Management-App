@@ -1,0 +1,86 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-07T11:00:28.000Z",
+      "fileName": "tabs/Script__c.tab",
+      "fullName": "Script__c",
+      "id": "01rd2000001zZxxAAE",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-07T11:00:28.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-05T06:09:17.000Z",
+      "fileName": "tabs/trlhdtips__Welcome.tab",
+      "fullName": "trlhdtips__Welcome",
+      "id": "01rd2000001vReDAAU",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-05T06:09:17.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "trlhdtips",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-05T06:09:17.000Z",
+      "fileName": "tabs/trlhdtips__Get_Your_Login_Credentials.tab",
+      "fullName": "trlhdtips__Get_Your_Login_Credentials",
+      "id": "01rd2000001vReBAAU",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-05T06:09:17.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "trlhdtips",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-07T11:00:01.000Z",
+      "fileName": "tabs/Movie__c.tab",
+      "fullName": "Movie__c",
+      "id": "01rd2000001zMO4AAM",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-07T11:00:01.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-07T19:26:07.000Z",
+      "fileName": "tabs/Cast__c.tab",
+      "fullName": "Cast__c",
+      "id": "01rd20000020SrHAAU",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-07T19:26:07.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-05T06:09:17.000Z",
+      "fileName": "tabs/trlhdtips__Install_a_Package.tab",
+      "fullName": "trlhdtips__Install_a_Package",
+      "id": "01rd2000001vReCAAU",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-05T06:09:17.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "trlhdtips",
+      "type": "CustomTab"
+    }
+  ]
+}

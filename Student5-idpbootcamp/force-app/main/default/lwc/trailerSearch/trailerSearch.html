@@ -1,0 +1,20 @@
+<template>
+    <template if:true={hasTrailer}>
+        <div class="trailer-container">
+            <iframe
+                width="560"
+                height="315"
+                src={trailerLink}
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </template>
+    <template if:false={hasTrailer}>
+        <div class="no-trailer-message">
+            <p>No trailer found.</p>
+        </div>
+    </template>
+</template>

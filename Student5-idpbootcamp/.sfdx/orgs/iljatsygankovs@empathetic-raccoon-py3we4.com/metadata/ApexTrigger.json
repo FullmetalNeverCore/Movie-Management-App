@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-12T08:55:50.000Z",
+      "fileName": "triggers/MovieTrigger.trigger",
+      "fullName": "MovieTrigger",
+      "id": "01qd20000007hD7AAI",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-16T06:29:01.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-12T08:18:01.000Z",
+      "fileName": "triggers/addMovieTmdbTrigger.trigger",
+      "fullName": "addMovieTmdbTrigger",
+      "id": "01qd20000007gfFAAQ",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-12T08:18:01.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}

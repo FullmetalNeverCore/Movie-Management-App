@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Contact</fullName>
+    <active>true</active>
+    <description>Business Contact</description>
+    <label>Business Contact</label>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Decision Maker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

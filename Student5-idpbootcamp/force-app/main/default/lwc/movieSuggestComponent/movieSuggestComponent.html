@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="TheMovieDB suggested records">
+        <template if:false={tmdbIdPopulated}>
+            <div class="slds-form-element">
+                <template if:true={showMovieList}>
+                    <ul class="slds-list slds-list_vertical slds-list_dotted">
+                        <template for:each={movieOptions} for:item="option">
+                            <li key={option.value} class="slds-list__item">
+                                <div class="slds-media slds-media_small slds-media_center">
+                                    <div class="slds-media__body">
+                                        <span class="slds-text-heading_small" title={option.label}>{option.label}</span><br>
+                                        <span class="slds-text-body_small" title="Description" style="color: gray;">{option.overview}</span> <br>
+                                        <span class="slds-text-body_small" title={option.value} style="color: gray;">TMDB ID: {option.value}</span><br>
+                                        <button class="slds-button slds-button_neutral slds-m-top_small" data-value={option.value} onclick={handleMovieSelect}>Populate the record</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </template>
+                    </ul>
+                </template>
+            </div>
+        </template>
+    </lightning-card>
+</template>

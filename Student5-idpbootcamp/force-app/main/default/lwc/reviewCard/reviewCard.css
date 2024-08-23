@@ -1,0 +1,26 @@
+.review-item {
+    margin-bottom: 1rem;
+}
+
+.review-username {
+    font-size: 1.25rem;
+    color: #0070d2;
+}
+
+.review-score {
+    font-size: 1rem;
+    color: #4b4f56;
+}
+
+.review-comment {
+    font-size: 0.875rem;
+    color: #6d6e71;
+}
+
+.review-item {
+    border-bottom: 1px solid #d8dde6;
+    padding: 1rem;
+    word-wrap: break-word; 
+    overflow-x: hidden; 
+}
+

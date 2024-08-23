@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Movie Poster">
+        <template if:true={posterUrl}>
+            <img src={posterUrl} alt="Movie Poster" style="max-width: 100%;" />
+        </template>
+        <template if:false={posterUrl}>
+            <p>No image info</p>
+        </template>
+    </lightning-card>
+</template>

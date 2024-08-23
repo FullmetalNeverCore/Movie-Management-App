@@ -1,0 +1,29 @@
+<template>
+    <a class="movie-card" onclick={handleDetailsClick}>
+        <div class="album small" data-cover-url={movie.Poster_URL__c}>
+            <div class="cover">
+                <template if:true={movie.Poster_URL__c}>
+                    <img src={movie.Poster_URL__c} alt={movie.Title__c} class="album-cover slds-align_absolute-center" />
+                </template>
+                <template if:false={movie.Poster_URL__c}>
+                    <img src="https://i.imgur.com/CLUFjMc.jpeg" alt="Placeholder" class="album-cover slds-align_absolute-center" />
+                </template>
+            </div>
+            <div class="vinyl">
+                <div class="vinyl-cover" style="background-image: url({movie.Poster_URL__c});"></div>
+            </div>
+        </div>
+
+        <h2 class="movie-title">{movie.Title__c}</h2>
+        
+        <template if:true={isHorrorMovie}>
+            <p class="age-rating">18+</p>
+        </template>
+        <template if:false={isHorrorMovie}>
+            <p class="noage-rating">&nbsp;</p>
+        </template>
+
+        <p class="movie-genre">Genre: {movie.Genre__c}</p>
+        <p class="movie-rating">Rating: {movie.Rating_calc__c}</p>
+    </a>
+</template>

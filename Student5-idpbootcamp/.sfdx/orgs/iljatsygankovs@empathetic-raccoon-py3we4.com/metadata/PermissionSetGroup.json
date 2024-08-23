@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-06T12:30:07.000Z",
+      "fileName": "permissionsetgroups/MovieEditGroup.permissionsetgroup",
+      "fullName": "MovieEditGroup",
+      "id": "0PGd20000006DDtGAM",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-06T12:31:22.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSetGroup"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-06T09:02:23.000Z",
+      "fileName": "permissionsetgroups/MovieAppPermissionGroup.permissionsetgroup",
+      "fullName": "MovieAppPermissionGroup",
+      "id": "0PGd20000006Bf7GAE",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-06T09:03:49.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSetGroup"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-06T12:32:09.000Z",
+      "fileName": "permissionsetgroups/MovieViewGroup.permissionsetgroup",
+      "fullName": "MovieViewGroup",
+      "id": "0PGd20000006DH7GAM",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-06T12:32:52.000Z",
+      "manageableState": "unmanaged",
+      "type": "PermissionSetGroup"
+    }
+  ]
+}

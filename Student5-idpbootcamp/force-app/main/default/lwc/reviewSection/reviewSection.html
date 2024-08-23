@@ -1,0 +1,35 @@
+<template>
+    <lightning-card title="User Reviews">
+        <div class="review-container">
+            <template if:true={reviews}>
+                <template for:each={reviews} for:item="review">
+                    <c-review-card key={review.Id} review={review}></c-review-card>
+                </template>
+            </template>
+            <template if:false={reviews}>
+                <p>No reviews available.</p>
+            </template>
+        </div>
+
+        <div class="form-container slds-p-around_medium">
+            <lightning-combobox
+                label="Score (0-10)"
+                value={score}
+                placeholder="Select a score"
+                options={scoreOptions}
+                onchange={handleScoreChange}
+            ></lightning-combobox>
+            <lightning-textarea
+                label="Review"
+                value={reviewText}
+                onchange={handleReviewTextChange}
+            ></lightning-textarea>
+            <br>
+            <lightning-button
+                class="slds-m-top_medium"
+                label="Submit Review"
+                onclick={handleSubmit}
+            ></lightning-button>
+        </div>
+    </lightning-card>
+</template>

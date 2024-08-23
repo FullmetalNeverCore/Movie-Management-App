@@ -1,0 +1,29 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-07T06:07:17.000Z",
+      "fileName": "sites/test2.site",
+      "fullName": "test2",
+      "id": "0DMd20000001CYbGAM",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-07T06:11:10.000Z",
+      "type": "CustomSite"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "2024-08-06T12:46:50.000Z",
+      "fileName": "sites/test.site",
+      "fullName": "test",
+      "id": "0DMd20000001CFFGA2",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "2024-08-06T12:46:53.000Z",
+      "type": "CustomSite"
+    }
+  ]
+}

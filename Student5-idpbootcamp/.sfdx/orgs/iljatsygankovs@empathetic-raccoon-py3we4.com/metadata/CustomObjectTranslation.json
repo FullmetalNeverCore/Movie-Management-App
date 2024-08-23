@@ -1,0 +1,70 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/Movie__c-en_US.objectTranslation",
+      "fullName": "Movie__c-en_US",
+      "id": "",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/Script__c-en_US.objectTranslation",
+      "fullName": "Script__c-en_US",
+      "id": "",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/Cast__c-en_US.objectTranslation",
+      "fullName": "Cast__c-en_US",
+      "id": "",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/Org_Settings__c-en_US.objectTranslation",
+      "fullName": "Org_Settings__c-en_US",
+      "id": "",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    },
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "objectTranslations/DisableUpdateTrigger__c-en_US.objectTranslation",
+      "fullName": "DisableUpdateTrigger__c-en_US",
+      "id": "",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomObjectTranslation"
+    }
+  ]
+}

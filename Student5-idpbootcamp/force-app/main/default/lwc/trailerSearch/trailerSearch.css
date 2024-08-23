@@ -1,0 +1,29 @@
+.trailer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trailer-container iframe {
+    border-radius: 8px;
+}
+
+.no-trailer-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

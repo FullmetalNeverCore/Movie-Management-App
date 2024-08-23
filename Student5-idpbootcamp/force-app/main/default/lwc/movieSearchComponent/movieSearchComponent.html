@@ -1,0 +1,33 @@
+<template>
+    <lightning-card title="Search TheMovieDB">
+        <template if:true={tmdbIdPopulated}>
+            <p>The data is already copied from TheMovieDB.</p>
+        </template>
+        <template if:false={tmdbIdPopulated}>
+            <div class="slds-form-element">
+                <lightning-input
+                    label="Movie Title"
+                    value={movieTitle}
+                    onchange={handleTitleChange}>
+                </lightning-input>
+                <template if:true={showDropdown}>
+                    <div class="slds-dropdown slds-dropdown_fluid slds-dropdown_length-5">
+                        <ul class="slds-listbox slds-listbox_vertical slds-listbox_fluid">
+                            <template for:each={movieOptions} for:item="option">
+                                <li key={option.value} class="slds-listbox__item">
+                                    <div class="slds-listbox__option slds-listbox__option_plain slds-media slds-media_small slds-media_center" role="presentation" data-value={option.value} onclick={handleMovieSelect}>
+                                        <span class="slds-media__body">
+                                            <span class="slds-truncate" title={option.label}>{option.label}</span><br>
+                                            <span class="slds-truncate" title="Desctiption" style="font-size: smaller; color: gray;">{option.overview}</span> <br>
+                                            <span class="slds-truncate" title={option.value} style="font-size: smaller; color: gray;">TMDB ID : {option.value}</span>
+                                        </span>
+                                    </div>
+                                </li>
+                            </template>
+                        </ul>
+                    </div>
+                </template>
+            </div>
+        </template>
+    </lightning-card>
+</template>

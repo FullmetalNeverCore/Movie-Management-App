@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005d2000001BujyAAC",
+      "createdByName": "Ilja Tsygankovs",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "labels/CustomLabels.labels",
+      "fullName": "CustomLabels",
+      "id": "",
+      "lastModifiedById": "005d2000001BujyAAC",
+      "lastModifiedByName": "Ilja Tsygankovs",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "CustomLabels"
+    }
+  ]
+}
