@@ -27,7 +27,8 @@ export default class MovieList extends LightningElement {
                     Genre__c: movie.Genre__c ? movie.Genre__c.replace(/;/g, ',') : ''
                 }))
             ];
-            this.filterMovies();
+            this.filtered_movies = [...this.movies]; 
+            this.updateDisplayedMovies();
         } else if (error) {
             this.error = error;
             this.filtered_movies = [];
@@ -46,7 +47,9 @@ export default class MovieList extends LightningElement {
     resetFilterSelection() {
         this.searchTerm = '';
         this.selectedGenre = '';
-        this.filterMovies();
+        this.filtered_movies = [...this.movies]; 
+        console.log('reset');
+        this.updateDisplayedMovies();
     }
 
     handleGenreChange(event) {
@@ -80,8 +83,8 @@ export default class MovieList extends LightningElement {
                             Genre__c: movie.Genre__c ? movie.Genre__c.replace(/;/g, ',') : ''
                         }))
                     ];
-    
-                    this.filterMovies();
+                    this.filtered_movies = [...this.movies]; 
+                    this.updateDisplayedMovies();
                 }
                 this.isLoading = false;
             })
@@ -120,15 +123,26 @@ export default class MovieList extends LightningElement {
 
     filterMovies() {
             let filtered = this.movies;
-    
+
             if (this.searchTerm) {
                 filtered = filtered.filter(movie => {
                     return movie.Title__c.toLowerCase().includes(this.searchTerm); 
                 });
             }
-    
-            this.filtered_movies = filtered;
-            this.updateDisplayedMovies();
+
+            if (this.selectedGenre) {
+                filtered = filtered.filter(movie => {
+                    return movie.Genre__c.includes(this.selectedGenre);
+                });
+            }
+
+            this.filtered_movies = filtered; 
+            this.updateDisplayedMovies(); 
+    }
+
+    sortByRating() {
+        this.filtered_movies.sort((a, b) => b.Rating_calc__c - a.Rating_calc__c);
+        this.updateDisplayedMovies();
     }
 
     get SearchMode()
@@ -140,4 +154,3 @@ export default class MovieList extends LightningElement {
         return this.filtered_movies.length > this.displayedMovies.length;
     }
 }
-
